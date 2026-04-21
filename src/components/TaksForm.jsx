@@ -22,7 +22,7 @@ function TaskForm() {
   return (
     <div className='max-w-md mx-auto '>
         <form onSubmit={handleSubmit} className='bg-slate-800 p-10 mb-4'>
-            <h1 className='text-2xl font-bold mb-3 text-white'>Crea tu tarea automtizada</h1>
+            <h1 className='text-2xl font-bold mb-3 text-white'>Crea tu tarea</h1>
             <input type="text" 
             placeholder="Escribe tu tarea"
             className='bg-slate-300 p-3 w-full mb-2'
